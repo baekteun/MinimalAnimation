@@ -13,6 +13,8 @@
 		46E2A8ED284E439E00FBAA9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2A8DB284E439D00FBAA9F /* ContentView.swift */; };
 		46E2A8EE284E439E00FBAA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E2A8DC284E439E00FBAA9F /* Assets.xcassets */; };
 		46E2A8EF284E439E00FBAA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E2A8DC284E439E00FBAA9F /* Assets.xcassets */; };
+		46E2A8FB284E44AC00FBAA9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2A8FA284E44AC00FBAA9F /* User.swift */; };
+		46E2A8FD284E452F00FBAA9F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2A8FC284E452F00FBAA9F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		46E2A8E1284E439E00FBAA9F /* MinimalAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E2A8E7284E439E00FBAA9F /* MinimalAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E2A8E9284E439E00FBAA9F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		46E2A8FA284E44AC00FBAA9F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		46E2A8FC284E452F00FBAA9F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		46E2A8D9284E439D00FBAA9F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				46E2A8F9284E448E00FBAA9F /* Model */,
+				46E2A8F8284E448C00FBAA9F /* View */,
 				46E2A8DA284E439D00FBAA9F /* MinimalAnimationApp.swift */,
 				46E2A8DB284E439D00FBAA9F /* ContentView.swift */,
 				46E2A8DC284E439E00FBAA9F /* Assets.xcassets */,
@@ -76,6 +82,22 @@
 				46E2A8E9284E439E00FBAA9F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		46E2A8F8284E448C00FBAA9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46E2A8FC284E452F00FBAA9F /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46E2A8F9284E448E00FBAA9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46E2A8FA284E44AC00FBAA9F /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E2A8EC284E439E00FBAA9F /* ContentView.swift in Sources */,
+				46E2A8FD284E452F00FBAA9F /* HomeView.swift in Sources */,
 				46E2A8EA284E439E00FBAA9F /* MinimalAnimationApp.swift in Sources */,
+				46E2A8FB284E44AC00FBAA9F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
